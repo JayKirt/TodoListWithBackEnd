@@ -13,7 +13,7 @@ taskInput.addEventListener ("keydown", function(e)
 // if the event (e) is equal to the key enterr and the input field does not have a value of an empty string then trim the whitespace at either side then continue the function
 {if (e.key=== "Enter" && taskInput.value.trim() !== "") {
     // this will prevent the code from refreshing the page on event trigger and clearing the list 
-    e.preventdefault ()
+    e.preventDefault ()
 //add the input value to the task list and trim the whitespace at the start and end of the input
 addTask(taskInput.value.trim())
 // Reset the task input value to nothing once complete.
@@ -24,7 +24,7 @@ function addTask(taskText) {
     const li = document.createElement("li")
     li.innerHTML = `
     <span> ${taskText} </span>
-    <button class="deleteBtn> Delete </button>
+    <button class= "deleteBtn"> Delete </button>
     `
     taskList.appendChild(li)
 
