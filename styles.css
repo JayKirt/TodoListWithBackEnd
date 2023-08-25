@@ -43,3 +43,7 @@ li {
 li:last-child {
     border-bottom: none;
 }
+
+.completed span {
+    text-decoration: line-through;
+}

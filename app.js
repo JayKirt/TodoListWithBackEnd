@@ -27,6 +27,7 @@ function addTask(taskText) {
     // li.innerHTML targets the li element and allows the user to input text to that element and created a button labeled delete alongside each element. 
     li.innerHTML = `
     <span> ${taskText} </span>
+    <input class = "chkBox"type="checkbox">  </input>
     <button class= "deleteBtn"> Delete </button>
     `
     //adds the item to the list as a child of the taskList class  element 
@@ -35,4 +36,11 @@ function addTask(taskText) {
     li.querySelector (".deleteBtn").addEventListener("click" , function() {
         taskList.removeChild(li)
     })
+    const checkbox = li.querySelector("input[type='checkbox']");
+    checkbox.addEventListener("click", function() {
+        // Toggle the 'completed' class on the list item
+        li.classList.toggle("completed");
+    });
 } 
+
+// TO DO  - 1.Allow a tick box for completion of a task which will strike out a task when clicked 
