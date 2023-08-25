@@ -2,5 +2,6 @@
 
 <h3> Completed </h3>
 <ul>
-  <li> HTML Boiler Plate :0254: </li>
+  <li> HTML Boiler Plate ☑️: </li>
+  <li> List items appending to list ☑️</li>
 </ul>
