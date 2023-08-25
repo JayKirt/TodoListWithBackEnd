@@ -36,9 +36,11 @@ function addTask(taskText) {
     li.querySelector (".deleteBtn").addEventListener("click" , function() {
         taskList.removeChild(li)
     })
+    // sets a var called checkbox, selects the input type checkbox and then adds an event listener which on click runs a function which toggles the class of the element
     const checkbox = li.querySelector("input[type='checkbox']");
     checkbox.addEventListener("click", function() {
-        // Toggle the 'completed' class on the list item
+        // Toggle the 'completed' class on the list item. The classList lets us change or add a class to the list element whilst the toggle allows us to to toggle this new class of completed
+        //off and on. The completed class is then placed into the CSS which will toggle a line through the text once the checkbox is clicked and the class is given to that list item  
         li.classList.toggle("completed");
     });
 } 
