@@ -12,3 +12,7 @@
 </ul>
 
 <h2> <ins> To Do: </ins> </h2>
+<ul> 
+<li> Store tasks in the back end</li>
+<li> Save deleted tasks in a seperate pop out menu </li>
+</ul>
