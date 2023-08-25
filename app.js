@@ -20,14 +20,18 @@ addTask(taskInput.value.trim())
 taskInput.value = "" }
 })
 
+//creeate a function the created a new list item and appends it to the list 
 function addTask(taskText) {
+    //create a variabnle which adds a new item to the list with the text inputed as taskText
     const li = document.createElement("li")
+    // li.innerHTML targets the li element and allows the user to input text to that element and created a button labeled delete alongside each element. 
     li.innerHTML = `
     <span> ${taskText} </span>
     <button class= "deleteBtn"> Delete </button>
     `
+    //adds the item to the list as a child of the taskList class  element 
     taskList.appendChild(li)
-
+// selects the deletebtn class created above and adds a click event listener that removed the child li item when clicked. 
     li.querySelector (".deleteBtn").addEventListener("click" , function() {
         taskList.removeChild(li)
     })
