@@ -8,7 +8,7 @@
   <li>User input clearing on appending to list. ☑️</li>
   <li>List items appending to list. ☑️</li>
   <li>List items deleting from list. ☑️</li>
-  <li> Check box and strikethrough of text on completion. ☑️</li> 
+  <li>Check box and strikethrough of text on completion. ☑️</li> 
 </ul>
 
 <h2> <ins> To Do: </ins> </h2>
