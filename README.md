@@ -2,7 +2,7 @@
 
 <p> A simple to do list with deletion and completion of tasks with a back end for a single user to store and keep tasks. </p>
 
-<h3><ins>  Completed:  </ins></h3>
+<h3><ins>Completed:</ins></h3>
 <ul>
   <li> HTML Boiler Plate. ☑️ </li>
   <li> User input clearing on appending to list. ☑️ </li>
