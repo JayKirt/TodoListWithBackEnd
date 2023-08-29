@@ -1,4 +1,4 @@
-<h1> <ins> To Do List Practice. </ins> </h1>
+<h1> <ins>To Do List Practice.</ins> </h1>
 
 <p> A simple to do list with deletion and completion of tasks with a back end for a single user to store and keep tasks. </p>
 
