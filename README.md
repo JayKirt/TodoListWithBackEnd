@@ -11,7 +11,7 @@
   <li>Check box and strikethrough of text on completion. ☑️</li> 
 </ul>
 
-<h2> <ins> To Do: </ins> </h2>
+<h2><ins>To Do:</ins></h2>
 <ul> 
 <li> Store tasks in the back end. </li>
 <li> Save deleted tasks in a seperate pop out menu. </li>
