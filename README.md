@@ -14,9 +14,9 @@
 <h2><ins>To Do:</ins></h2>
 <ul> 
   <li> Plan the back end. </li>
-<li> Store tasks in the back end. </li>
-<li> Save deleted tasks in a seperate pop out menu. </li>
-<li> Improve CSS to stop text overflow. </li>
-<li> Keep checkbox and delete button in same possition regardless of text lenght. </li>
+  <li> Store tasks in the back end. </li>
+  <li> Save deleted tasks in a seperate pop out menu. </li>
+  <li> Improve CSS to stop text overflow. </li>
+  <li> Keep checkbox and delete button in same possition regardless of text lenght. </li>
   <li> Make the App responsive to screensize. </li>
 </ul>
